@@ -1,6 +1,7 @@
 import Chai from "./chai";
 
 function App() {
+  const username = "sahilbhise09"
   return (
     // <div>
     //   <h1>Sahil Bhise vite</h1>
@@ -8,7 +9,7 @@ function App() {
     // </div>
 
     <>
-      <h1>Sahil Bhise vite</h1>
+      <h1>Sahil Bhise vite {username}</h1>
       <Chai/>
     </>
   )
