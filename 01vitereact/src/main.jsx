@@ -10,7 +10,7 @@ function MyApp(){
         </div>
     )
 }
-
+// This is customreact syntax
 // const ReactElement = {
 //     type: 'a',
 //     props: {
@@ -25,7 +25,6 @@ const anotherElement = (
 )
 
 
-
 const anotherUser = "sahilbhise09"
 
 const reactElement = React.createElement(
@@ -36,9 +35,8 @@ const reactElement = React.createElement(
 )
 
 ReactDOM.createRoot(document.getElementById('root')).render(
- 
     reactElement
     // <App/>
-  
 )
+
 
