@@ -1,10 +1,10 @@
 function customRender(reactElement, container){
-    /*const domElement = document.createElement(reactElement.type)
-    domElement.innerHTML = reactElement.children
-    domElement.setAttribute('href', reactElement.props.href)
-    domElement.setAttribute('target', reactElement.props.target)
+    /*const domElement = document.createElement(reactElement.type) //created <a></a> element
+    domElement.innerHTML = reactElement.children // add text msg
+    domElement.setAttribute('href', reactElement.props.href) //added properties
+    domElement.setAttribute('target', reactElement.props.target)//added properties
 
-    container.appendChild(domElement)*/
+    container.appendChild(domElement) // append that to the container*/
 
     const domElement = document.createElement(reactElement.type)
     domElement.innerHTML = reactElement.children
@@ -23,8 +23,8 @@ const reactElement = {
         target: '_blank'
     },
     children: 'Click me to visit google'
-}
+} //created object 
 
-const mainContainer = document.querySelector('#root')
+const mainContainer = document.querySelector('#root') // get the div element
 
 customRender(reactElement, mainContainer)
