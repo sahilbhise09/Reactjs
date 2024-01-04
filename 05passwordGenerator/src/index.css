@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#gbtn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 3px;
+    margin: 10px;
+}
